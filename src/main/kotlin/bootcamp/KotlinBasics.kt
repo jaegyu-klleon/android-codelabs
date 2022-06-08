@@ -1,3 +1,5 @@
+package bootcamp
+
 var tp = TypePrinter();
 
 fun main() {
@@ -183,6 +185,7 @@ class TypePrinter {
 
     fun execute() {
         println("please insert value")
+
     }
 
     fun execute(value: Any) {

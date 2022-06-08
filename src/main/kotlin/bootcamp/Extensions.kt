@@ -1,3 +1,5 @@
+import bootcamp.tp
+
 fun main() {
 //    start()
 //    pairsTriples()

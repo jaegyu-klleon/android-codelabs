@@ -1,3 +1,31 @@
+fun main() {
+//    MappingService("name", 123)
+//    val obj = Test.create()
+
+//    val user = object {
+//        val name :String = "choi"
+//
+//        fun printMyName() {
+//            println(name)
+//        }
+//    }
+//
+//    user.printMyName()
+//    User.printMyName()
+//
+//    getNavigation.showNetworkError()
+
+//    val d = Demo()
+//    d.run()
+
+    Person().hello()
+}
+
+class Person {
+    fun hello() { println("hello!") }
+}
+fun Person.hello() { println("HELLLLLLOOOOOOOOO!!!!") }
+
 //interface 등록
 interface Navigation {
     fun showNetworkError()
@@ -18,23 +46,6 @@ val party = object {
     }
 }
 
-fun main() {
-//    MappingService("name", 123)
-//    val obj = Test.create()
-
-    val user = object {
-        val name :String = "choi"
-
-        fun printMyName() {
-            println(name)
-        }
-    }
-
-    user.printMyName()
-    User.printMyName()
-
-    navigation.showNetworkError()
-}
 
 
 object User {
